@@ -29,7 +29,6 @@ with open('false.txt','w') as falseTxt:
 #select uppon 2023 in False file
 final=open ("final.txt",'w')
 regularForDate = r'\d{2}\.\d{2}\.(\d{4})'
-regularForDate = r'\d{2}\.\d{2}\.(\d{4})'
 with open('false.txt','r') as file:
     for line in file:
         hit = re.search(regularForDate,line)
